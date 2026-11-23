@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+  <div class="row">
+    <div class="col col-md-7 col-sm-6 d-none d-sm-block sfondo text-white">
+      <h1>Hi guys</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eos aspernatur dolore neque ut repudiandae autem? Illum dignissimos voluptatum animi sapiente, eum expedita labore magnam officiis, quas, saepe quisquam. Maxime!</p>
+    </div>
+    <div class="col col-md-5 col-sm-6">
+        <h1>Login</h1>
+        <p>Don't have an account? create your account. Takes a few minutes</p>
+        <p class="puff p-2 bg-danger text-white" id="loginFailed">Login failed, user not registered.</p>
+        <p class="puff p-2 bg-success text-white" id="loginSuccess">Login succesful</p>
+        <p>Username</p>
+            <input type="text" class="border-0 border-bottom border-black" id="newUser">
+        <p>Password</p>
+            <input type="password" class="border-0 border-bottom border-black" id="newPassword"> 
+            <i class="bi bi-eye-slash" onclick="occhio()" id="occhioToggle"></i>
+        <button type="button" class="btn btn-primary mt-3" onclick="InputLogin()">Login </button>
+    </div>
+  </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>    
+    <script src="./js/script.js"></script>
+</body>
+</html>
